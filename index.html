@@ -1,13 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="master.css">
-    <title>XX</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Header.css">
+  <link rel="stylesheet" href="main.js">
+  <link rel="stylesheet" href="all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="all.min.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Arena Gym</title>
 </head>
 <body>
-    
+
+<!-- Home -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="" class="nav__logo">
+        <img src="only.png" alt="logo">ARENA
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#offers" class="nav__link">Offers </a>
+            </li>
+            <li>
+              <a href="#bmi" class="nav__link">BMI calculate</a>
+            </li>
+            <li>
+              <a href="#why-us" class="nav__link">Why Us</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h2 class="home__subtitle" >MAKE YOUR</h2>
+          <h1 class="home__title" style="color: white;">BODY SHAPE</h1>
+          <p class="hoem__description">
+            In here we will help you to shapa and build your ideal
+            body and live your life to the fullest.
+          </p>
+          <a href="#" class="button button__flex">
+            Get Stated <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="home__images">
+          <img src="./5.png" alt="home img" class="home__img">
+          <div class="home__triangle home__triangle-3"> </div>
+          <div class="home__triangle home__triangle-2"> </div>
+          <div class="home__triangle home__triangle-1"> </div>
+        </div>
+      </div>
+    </section>
+    <!-- Offers -->
+    <section class="offers section" id="offers">
+      <div class="container">
+        <div class="section__data">
+          <h2 class="section__subtitle">Pricing</h2>
+          <div class="section__titles">
+            <h1 class="section__title-border">OUR</h1>
+            <h1 class="section__title" style="margin-right:5px ;">SPECIAL PLAN</h1>
+          </div>
+        </div>
+        <div class="pricing__container grid">
+          <article class="pricing__card">
+            <header class="pricing__header">
+              <div class="pricing__shape">
+                <img src="./only.png" alt="">
+              </div>
+              <h1 class="pricing__title">ONE MONTH</h1>
+              <h2 class="pricing__number">250L.E</h2>
+            </header>
+            <ul class="pricing__list">
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 2 Invetations
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 2 PT
+              </li>
+              <li class="pricing__item pricing__item-opacity">
+                <i class="fa-solid fa-check"></i> InBody
+              </li>
+              <li class="pricing__item pricing__item-opacity">
+                <i class="fa-solid fa-check"></i> Freeze
+              </li>
+            </ul>
+          </article>
+          <article class="pricing__card pricing__card-active">
+            <header class="pricing__header">
+              <div class="pricing__shape">
+                <img  class="xo" src="./35.png" alt="">
+              </div>
+              <h1 class="pricing__title">THREE MONTH</h1>
+              <h2 class="pricing__number">600L.E</h2>
+            </header>
+            <ul class="pricing__list">
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 8 Invetations
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 8 PT
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 2 Week Freeze
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 2 InBody
+              </li>
+            </ul>
+          </article>
+          <article class="pricing__card pricing__card-active">
+            <header  class="pricing__header">
+              <div class="pricing__shape">
+                <img class="xo" src="./35.png" alt="">
+              </div>
+              <h1 class="pricing__title">SIX MONTH</h1>
+              <h2 class="pricing__number">1000L.E</h2>
+            </header>
+            <ul class="pricing__list">
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 20 Invetations
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 30 PT
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 1 Month Freeze
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 6 InBody
+              </li>
+            </ul>
+          </article>
+          <article class="pricing__card">
+            <header class="pricing__header">
+              <div class="pricing__shape">
+                <img src="./only.png" alt="">
+              </div>
+              <h1 class="pricing__title">ONE YEAR</h1>
+              <h2 class="pricing__number">1800L.E</h2>
+            </header>
+            <ul class="pricing__list">
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 50 Invetations
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 70 PT
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 2 Month Freeze
+              </li>
+              <li class="pricing__item">
+                <i class="fa-solid fa-check"></i> 15 InBody
+              </li>
+            </ul>
+          </article>
+      </div>
+      </div>
+    </section>
+    <!-- BMI Calculate -->
+    <section class="calculate section" id="bmi">
+      <div class="calculate__container container grid">
+        <div class="calculate__content">
+          <div class="section__titles">
+            <h1 class="section__title-border">CALCULATE</h1>
+            <h1 class="section__title">YOUR BMI</h1>
+          </div>
+          <p class="calculate__description">
+            The body mass index (BMI) calculator calculates body mass index from your
+            weight and height.
+          </p>
+          <form action="" class="calculate__form" id="calculate-form">
+            <div class="calculate__box">
+              <input type="number" placeholder="Height" class="calculate__input" id="calculate-cm" span id="height_error"></span >
+              <label for="" class="calculate__label">cm</label>
+            </div>
+            <div class="calculate__box">
+              <input type="number" placeholder="Weight" class="calculate__input" id="calculate-kg" span id="weight_error"></span >
+              <label for="" class="calculate__label">kg</label>
+            </div>
+            <button type="submit" class="button button__flex" id="sub">
+              Calculate Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+          <p class="calculate__message" id="calculate-message"></p>
+          <img src="./2.png" alt="claculate" class="calculate__img" id="calculate-img"></img>
+        </div>
+      </div>
+    </section>
+    <section class="choose section" id="why-us">
+      <div class="choose__overflow">
+        <div class="choose container container grid">
+          <div class="choose__content">
+            <div class="section__data">
+              <h2 class="section__subtitle">Best Choice</h2>
+              <div class="sectionn__titles">
+                <h1 class="section__title" style="color: WHITE;">WHY US ?</h1>
+              </div>
+            </div>
+            <p class="choose__description">
+              Choose right Choose "Arena" We have professional trainers 
+              and we have a distinctive gym full of modern equipment.
+            </p>
+            <div class="choose__data">
+              <div class="choose__group">
+                <h3 class="choose__number">2k+</h3>
+                <p class="choose__subtitle">Total Members</p>
+              </div>
+              <div class="choose__group">
+                <h3 class="choose__number">20+</h3>
+                <p class="choose__subtitle">Professional Trainers</p>
+              </div>
+              <div class="choose__group">
+                <h3 class="choose__number">10+</h3>
+                <p class="choose__subtitle">Programs</p>
+              </div>
+            </div>
+          </div>
+          <div class="choose__images">
+            <img src="./6.png" alt="choose image" class="choose__img">
+            <div class="choose__triangle choose__triangle-1"></div>
+            <div class="choose__triangle choose__triangle-2"></div>
+            <div class="choose__triangle choose__triangle-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="contact" id="contact">
+    <div class="container">
+        <div class="info">
+            <p class="label"style="
+            letter-spacing: 3px;
+            font-size: 13px; ">
+            Feel free to send us an email at:
+            </p>
+            <a class="link" href="mailto:fadynader021@gmail.com?subject=Contact">fadynader021@gmail.com</a>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    &copy; 2022 <span class="ngm">FN</span> All Right Reserved
+</div>
+  <script src="./main.js"></script>
 </body>
 </html>
